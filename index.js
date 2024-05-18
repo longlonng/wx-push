@@ -45,23 +45,23 @@ async function update() {
   let lovedate = parseInt((new Date().getTime() - new Date(first_date).getTime()) / 1000 / 60 / 60 / 24);
   sendData.data = {
     nowDate: {
-      value: forecasts[0].casts[0].date + " 星期" + format(forecasts[0].casts[0].week),
+      value:  " 宝宝我错了 别生气了 " ,
       color: "#54D7FF",
     },
     city: {
-      value: forecasts[0].province + " " + forecasts[0].city,
+      value: " 咱加上好好说，好不好 ",
       color: "#FDF7C4",
     },
     weather: {
-      value: forecasts[0].casts[0].dayweather,
+      value: " 消消气",
       color: "#E5D225",
     },
     daytemp: {
-      value: forecasts[0].casts[0].daytemp + "°C",
+      value: " 认识到错误了 ",
       color: "#2DEDD8",
     },
     nighttemp: {
-      value: forecasts[0].casts[0].nighttemp + "°C",
+      value: "亲爱的  我错了",
       color: "#6E64BB",
     },
     loveDate: {
